@@ -10,13 +10,13 @@ a] Components you'll need:
 5) Breadboard and jumper wires
 6) Mounting hardware for the solar panel and servo
 
-b] Working Solar tracker
+b] Working of Solar tracker:
 The primary light sensors are LDRs. The structure that holds the solar panel is supported by two servo motors. The Arduino program is loaded into the microcontroller. The project's operation is as follows.LDRs detect the amount of light that strikes them. There are four LDRs: top, bottom, left, and right.The analog readings from two top LDRs and two bottom LDRs are compared for east-west tracking, and if the top set of LDRs receives more light, the vertical servo will move in that direction. The servo travels in the direction where the bottom LDRs get more light.The analog signals from two left LDRs and two right LDRs are compared to determine the angular deflection of the solar panel. The horizontal servo will move in the direction where the left set of LDRs receives more light than the right set.If the appropriate LDRs receive more light, the servo will move in that direction.
 
-c] Setup(for hardware purpose)
+c] Setup(for hardware purpose):
 Use this link"https://www.electronicshub.org/arduino-solar-tracker/" for hardware purposes to understand the processes of how it is actually done.
 
-d] Setup(for software purpose)
+d] Setup(for software purpose):
 1) Install the ARDUINO IDE and proteus for code execution and circuit simulation.
 2) On your PC, launch the Arduino IDE.
 3) To build a new sketch in the Arduino IDE, navigate to File > Examples > Servo > Knob/Sweep.
