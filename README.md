@@ -25,6 +25,9 @@ d] Setup(for software purpose):
 6) Copy and paste the hex file link to the arduino uno's IC section into proteus.
 7) Run the proteus software circuit simulation to determine whether or not the project flow is operating.
 
+e] The circuit for a solar tracker utilizing an Arduino uno is shown in the diagram above.
+
+
 
 
 
